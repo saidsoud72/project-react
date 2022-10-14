@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
-import NavBar from "./NavBar";
-import Login from "./Login";
-import Notes from "./Notes";
-import Home from "./Home";
+import NavBar from "./components/NavBar";
+import Login from "./components/Login";
+import Notes from "./components/Notes.js";
+import Home from "./components/Home";
 
 function App() {
   const [notes, setNotes] = useState([]);
